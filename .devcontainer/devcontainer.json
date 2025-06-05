@@ -15,6 +15,7 @@
         "extensions": [
           "rust-lang.rust-analyzer", // Rust language server
           "tamasfe.even-better-toml", // TOML syntax support
+          "nefrob.vscode-just-syntax", // Justfile syntax support
           "ms-vscode.makefile-tools", // Makefile Tools extension
           "dbankier.vscode-quick-select" // Quick select with cmd/ctrl+k "
         ]
