@@ -52,9 +52,10 @@ After fixing these quirks, release-please will create PRs for you based on your 
 > ```
 > This is because GITHUB_TOKEN actions [cannot trigger new workflows](https://github.com/orgs/community/discussions/54574#discussioncomment-10119733) (also see [here](https://github.com/orgs/community/discussions/25281)). 
 >
-> We work around this by opening the new release in the browser and pressing "update" without changing anything. It is... not ideal.
+> We work around this by opening the new release in the browser and pressing "update" without changing anything. This will trigger the build action. 
 > <img width="978" alt="image" src="https://github.com/user-attachments/assets/f8a919cf-91a4-4940-9903-be2295cad8a5" />
->
+> It is... not ideal.
+> 
 > You can also work around this by using a PAT for the release-please and build action, but that requires you to set up and maintain a PAT with the correct permissions manually.
 
 The build action will compile a Linux AMD and ARM binary and add it to the release as an asset that can be downloaded.
