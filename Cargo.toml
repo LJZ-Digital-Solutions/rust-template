@@ -1,6 +1,6 @@
 [package]
 name = "rust-template"
-version = "0.0.1"
+version = "0.1.0"
 edition = "2024"
 authors = ["You <user@email.com>"]
 description = "Opinionated Rust template for new projects"
