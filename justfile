@@ -12,6 +12,9 @@ lint: format
 test: lint
     @cargo test
 
+run:
+    @cargo run
+
 generate-module-graph:
     @mkdir -p media
     @cargo modules dependencies --no-externs --no-fns --no-sysroot --no-traits --no-types --no-uses -p {{binary_name}} | dot -Tsvg > media/{{binary_name}}-modules.svg
